@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ct {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.contact-section {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+.glyphicon-film:before {
+    content: "\e009";
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 477px;
+    width: 1080px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 477px;
+    width: 1080px;
+}
+.nav-item{
+    position: sticky;
+}
+.travel_mainDiv{
+    padding-bottom: 10px;
+}
